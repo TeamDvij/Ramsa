@@ -16,4 +16,17 @@
 }
 .tonal-shift {
   transition: background-color 0.3s ease;
+  background-color: #f3f4f5;
+}
+.glass-effect {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+.glass-panel {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+.monolith-gradient {
+  background: linear-gradient(135deg, #043568 0%, #264c80 100%);
 }
